@@ -4,81 +4,53 @@
     font-size: 1em;
 }
 
-header{
-    width:100%;
-    height: 150px;
-    background: #5c2d90;
-    z-index: 2;
-    position: relative;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#geral{
+    width: 100%;
+    border: 1px;
+    margin: 0 auto;
+}
+
+#cabecalho, #rodape {
+    background-color: #000000;
+    color: #ffffff;
+    height: 20px;
+    padding: 10px;
+
+}
+
+#subcabecalho {
+    width: 100%;
+    font-family: 'OpenSans-Regular';
+    background: purple;
+    padding: 40px;
+}
+
+
+#meio{
+    width: 100%;
+    height: 500px;
+    padding: relative;
+    background:url("../img/semtitulo.jpg") no-repeat;
+    top: 500px;
+    background-position: center;
 }
 
 li{
     display: inline-block;
-}
-
-header .container{
-    position: relative;
-    background-position: -100px 0px;
-}
-
-header .header-black, footer{
-    background-color: #000000;
-    height: 40px;
-}
-
-header #logotipo{
-    position: relative;
-    top: 38px;
-}
-
-#menu{
-    margin: 26px 0;
-}
-
-#menu li {
-    display: inline-block;
+    color: #ffffff;
     font-family: 'OpenSans-Regular';
+    font-size: 20px;
 }
 
-#menu li.search{
-    width: 170px;
-    height: 30px;
-}
 
-#menu li.search input{
-    background-color: #5c2d90;
-    color: #ffffff;
-    border: none;
-    height: 38px;
-    line-height: 30px;
-
-}
-
-#menu li.search ::-webkit-input-placeholder{
-    color: #ffffff;
-}
-
-#menu li.serach button{
-    background: none;
-    border: none;
-    position: absolute;
-    right: 3px;
-    top: 7px;
-}
-
-#menu li.search button i{
-    font-size: 14px;
-    color: rgba(255, 255, 255, .5);
-}
-
-#menu li a {
-    color: #ffffff;
-    font-size: 16px;
-    padding: 10px 25px 25px;
-}
-
-#menu li.search .input-group{
-    top: 2px;
+#logotipo{
+    position: relative;
+    top: 26px;
 }
 
 #banner{
@@ -89,3 +61,12 @@ header #logotipo{
     top: -500px;
     background-position: 450px 0px;
 }
+
+#rodape h1{
+    font-family: 'OpenSans-Regular';
+    font-size: 10px;
+}
+
+
+
+
