@@ -22,14 +22,12 @@
     padding: 10px;
 
 }
-
 #subcabecalho {
 
     font-family: 'OpenSans-Regular';
     background: purple;
     padding: 40px;
 }
-
 
 #meio{
 
@@ -42,9 +40,11 @@
 
 li{
     display: inline-block;
-    color: #ffffff;
+    color: black;
     font-family: 'OpenSans-Regular';
     font-size: 20px;
+
+
 }
 
 
