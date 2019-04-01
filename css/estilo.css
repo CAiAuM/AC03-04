@@ -10,27 +10,23 @@
 }
 
 #geral{
-
     margin: 0 auto;
 }
 
 #cabecalho, #rodape {
-
     background-color: #000000;
     color: #ffffff;
     height: 20px;
     padding: 10px;
-
 }
-#subcabecalho {
 
+#subcabecalho {
     font-family: 'OpenSans-Regular';
     background: purple;
     padding: 40px;
 }
 
 #meio{
-
     height: 500px;
     padding: relative;
     background:url("../img/semtitulo.jpg") no-repeat;
@@ -38,15 +34,18 @@
     background-position: center;
 }
 
+#noticia{
+    text-align: center;
+    color:white;
+    background-image:url('../img/noticias.jpg');
+}
+
 li{
     display: inline-block;
     color: black;
     font-family: 'OpenSans-Regular';
     font-size: 20px;
-
-
 }
-
 
 #logotipo{
     position: relative;
@@ -54,7 +53,6 @@ li{
 }
 
 #banner{
-
     height: 728px;
     padding: relative;
     background:url("../img/semtitulo.jpg") no-repeat;
@@ -63,11 +61,30 @@ li{
 }
 
 #rodape h1{
-
     font-family: 'OpenSans-Regular';
     font-size: 10px;
 }
 
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
 
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
